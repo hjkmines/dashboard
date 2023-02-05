@@ -1,2 +1,2 @@
 # dashboard
-Chris Medyna Team
+Developed by Team Hufflepuff
