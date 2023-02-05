@@ -1,9 +1,25 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#git /node_modules
+.gitgnore
+/client/node_modules
+/server/node_modules
+/node_modules
 
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+
+#package.json
+/client/package.json
+/client/package-lock.json
+
+/server/package.json
+/server/package-lock.json
+
+#config
+/server/config/config.env
+/server/config
+/client/*.env
 
 # testing
 /coverage
@@ -17,6 +33,9 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/.vscode
+/client/.DS_Store
+/server/.DS_Store
 
 npm-debug.log*
 yarn-debug.log*
