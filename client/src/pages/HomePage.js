@@ -1,8 +1,16 @@
 import React from 'react'
+import { Container, Box, Typography } from "@mui/material";
+
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <Box>
+      <Container>
+        <Typography>
+          This is the HomePage! 
+        </Typography>
+      </Container>
+    </Box>
   )
 }
 
