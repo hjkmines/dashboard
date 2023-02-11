@@ -1,21 +1,22 @@
+// React & App imports
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
+
+// MUI imports & Style imports
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import "@fontsource/urbanist";
 import { CssBaseline } from "@mui/material";
+import "@fontsource/urbanist";
 
 //global acess to MUI theme//
 const theme = createTheme({
   palette: {
-    // https://color.adobe.com/hanawilo-color-theme-20881290/
     white: "white",
     black: "black",
     text: {
       primary: "black",
     },
   },
-
   typography: {
     fontFamily: [
       "Urbanist",

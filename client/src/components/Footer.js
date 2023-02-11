@@ -3,10 +3,13 @@ import { Box, Stack, Container, Typography } from "@mui/material";
 
 const Footer = () => {
   return (
-    <Stack direction={"row"} >
-        <Box>
-            <Typography>
+    <Stack direction={"row"} sx={{ alignItems:"space-between "}} >
+        <Box sx={{ backgroundColor:"magenta" }}>
+            <Typography sx={{background:"transparent"}}>
                 This is the footer! 
+            </Typography>
+            <Typography sx={{backgroundColor: "teal"}}>
+                 part1
             </Typography>
         </Box>
         <Box>
