@@ -11,10 +11,10 @@ import "@fontsource/urbanist";
 //global acess to MUI theme//
 const theme = createTheme({
   palette: {
-    white: "white",
-    black: "black",
+    platinum: "#e5e4e2",
+    mintGreen: "#98ff98",
     text: {
-      primary: "black",
+      primary: "#000000", //black
     },
   },
   typography: {
