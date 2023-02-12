@@ -10,8 +10,6 @@
 .pnp.js
 
 #package.json
-/dashboard/package.json
-/dashboard/package-lock.json
 package.json
 package-lock.json
 /client/package.json
